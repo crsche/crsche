@@ -29,6 +29,7 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_octicon: yes
+          config_display: large
           config_timezone: America/Chicago
           plugin_code: yes
           plugin_code_days: 3
