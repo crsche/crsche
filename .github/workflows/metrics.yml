@@ -30,6 +30,7 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_octicon: yes
           config_display: large
+          config_padding: 0, 3%
           config_timezone: America/Chicago
           plugin_code: yes
           plugin_code_days: 3
