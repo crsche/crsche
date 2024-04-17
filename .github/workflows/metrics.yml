@@ -60,14 +60,8 @@ jobs:
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
-          plugin_music: yes
-          plugin_music_limit: 4
-          plugin_music_mode: top
-          plugin_music_provider: spotify
-          plugin_music_time_range: short
-          plugin_music_top_type: tracks
-          plugin_music_user: zpm7nv1jmkn7ht1fky10mi80r
           plugin_wakatime: yes
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_wakatime_days: 365
           plugin_wakatime_limit: 5
           plugin_wakatime_repositories_visibility: all
